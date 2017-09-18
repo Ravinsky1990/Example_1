@@ -59,7 +59,7 @@ jQuery(document).ready(function () {
     $(window).on("scroll", function () {
         var st = $(this).scrollTop();
         $(".button_wrap").css({
-            "transform":"translate(0%,"+st/6+"%)"
+            "transform":"translate(0%,"+st/10+"%)"
         });
     });
 });
